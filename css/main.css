@@ -43,7 +43,6 @@ div.stationname{
 	width: 96%;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-
 }
 
 div.stationname img{
@@ -55,6 +54,10 @@ div.stationname img{
 }
 
 div.stationname:hover{
+	padding-left: 20%;
+}
+
+div.activated{
 	padding-left: 20%;
 }
 
@@ -117,26 +120,6 @@ div.stationname strong{
 	}
 
 }
-
-/*@media (min-width: 601px) and (max-width: 1000px) {
-
-	#wrapper{
-		height: 100%;
-		width: 300px;
-		overflow-y: scroll;
-		overflow-x: hidden; 
-		float: left;
-	}
-
-	#map-canvas { 
-		height: 100%;
-		width: 700px;
- 		float: left;
- 		overflow: scroll;	
- 		position: absolute;
- 		margin-left: 300px; 
-	}
-}*/
 
 
 

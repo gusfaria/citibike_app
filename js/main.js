@@ -1,4 +1,6 @@
 var app = (function(){
+  "use strict";
+  
   var markers = {};
   var map;
 
@@ -21,13 +23,12 @@ var app = (function(){
     
     if(typeof markers[id] != 'undefined'){
       delMarker(markers[id], id);
-      // markers[id].setMap(null);
-      // delete markers[id];
     } else {
       addMarker(latlong, id);
     }
 
     $(this).siblings($('div.stationinfo')).slideToggle('fast');
+    $(this).toggleClass('activated');
     console.log(markers);
   });
 

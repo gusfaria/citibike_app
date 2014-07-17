@@ -9,16 +9,6 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/main.css">
-
-     
-     <!-- TASKS --><!-- TASKS --><!-- TASKS --><!-- TASKS --><!-- TASKS    
-    
-        - make the markers disapear when the toggle goes back
-        - makes it zooom to the station when clicked!!      
-     
-      TASKS --><!-- TASKS --><!-- TASKS --><!-- TASKS --><!-- TASKS -->
-
-
     </head>
     <body>    
         <div id="container">
